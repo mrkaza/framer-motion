@@ -1,7 +1,13 @@
 import React from "react";
+import { RangeInput } from "components";
+import { Storage } from "./modules/storage";
 
-function App() {
-  return <div className="App">yo</div>;
-}
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <Storage />
+    </div>
+  );
+};
 
 export default App;
