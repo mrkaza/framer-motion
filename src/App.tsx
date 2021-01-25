@@ -1,5 +1,4 @@
 import React from "react";
-import { RangeInput } from "components";
 import { Storage } from "./modules/storage";
 
 const App: React.FC = () => {

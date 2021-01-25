@@ -4,3 +4,5 @@
 @import "variables.css";
 
 @import "modules.storage.css";
+
+@import "components.rangeInput.css";

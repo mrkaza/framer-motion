@@ -1,5 +1,9 @@
 import React from "react";
 
 export const RangeInput: React.FC = () => {
-  return <input type="range" />;
+  return (
+    <div className="slider">
+      <input className="slider__input" type="range" min="1" max="100" />
+    </div>
+  );
 };
