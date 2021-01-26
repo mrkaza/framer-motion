@@ -29,6 +29,9 @@
   align-items: center;
   border-radius: 5px;
 }
+.storage__actions__icon:hover {
+  cursor: pointer;
+}
 
 .storage__data {
   text-align: center;
